@@ -264,22 +264,80 @@ main > .schedule > div > div > h3{
     -webkit-text-stroke: 3px whitesmoke;
     color: rgba(245,245,245,0);
     font-weight: bold;
-    transition: color .3s ease-in-out;
+}
+
+main > .schedule > div > div span{
+    padding-right: 1px;
+    padding-left: 5px;
 }
 
 
+/** HOVER **/
+
+
+/* h3 */
 
 main > .schedule > div > div > h3 > span:nth-child(1):hover{
     color: whitesmoke;
     cursor: default;
+    transition: 0.4s ease-in-out;
 }
 main > .schedule > div > div > h3 > span:nth-child(2):hover{
     color: whitesmoke;
     cursor: default;
+    transition: 0.4s ease-in-out;
 }
 main > .schedule > div > div > h3 > span:nth-child(3):hover{
     color: whitesmoke;
     cursor: default;
+    transition: 0.4s ease-in-out;
+}
+
+/* h4 */
+
+main > .schedule > div > div > h4 > span:nth-child(1):hover{
+    color: whitesmoke;
+    cursor: default;
+    transition: 0.4s ease-in-out;
+    
+}
+
+main > .schedule > div > div > h4 > span:nth-child(2):hover{
+    color: whitesmoke;
+    cursor: default;
+    transition: 0.4s ease-in-out;
+}
+
+main > .schedule > div > div > h4 > span:nth-child(3):hover{
+    color: whitesmoke;
+    cursor: default;
+    transition: 0.4s ease-in-out;
+}
+
+main > .schedule > div > div > h4 > span:nth-child(4):hover{
+    color: whitesmoke;
+    cursor: default;
+    transition: 0.4s ease-in-out;
+}
+
+/* h5 */
+
+main > .schedule > div > div > h5 > span:nth-child(1):hover{
+    color: whitesmoke;
+    cursor: default;
+    transition: 0.4s ease-in-out;
+}
+
+main > .schedule > div > div > h5 > span:nth-child(2):hover{
+    color: whitesmoke;
+    cursor: default;
+    transition: 0.4s ease-in-out;
+}
+
+main > .schedule > div > div > h5 > span:nth-child(3):hover{
+    color: whitesmoke;
+    cursor: default;
+    transition: 0.4s ease-in-out;
 }
 
 
@@ -296,6 +354,7 @@ main > .schedule > div > div > h4{
     -webkit-text-stroke: 2px whitesmoke;
     color: rgba(245,245,245,0);
     font-weight: bold;
+    transition: 0.4s ease-in-out;
 }
 
 main > .schedule > div > div > h5{
@@ -450,6 +509,7 @@ main > .tickets > div > .column > div > a > h4{
 /** MENU **/
 
 .menucontent{
+    background-color: var(--blue);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -471,6 +531,11 @@ main > .tickets > div > .column > div > a > h4{
 
 .menucontent > a:hover{
     color: var(--white);
+}
+
+.menucontent > div > a{
+    margin-top: 10px;
+    padding-left: 10px;
 }
 
 
@@ -592,12 +657,12 @@ footer > div > p{
     
     
     main > .schedule > div > div > h4{
-       font-size: 25px;
+       font-size: 20px;
        -webkit-text-stroke: 1px whitesmoke;
     }
     
     main > .schedule > div > div > h5{
-        font-size: 20px;
+        font-size: 16px;
         -webkit-text-stroke: 1px whitesmoke;
     }
 
